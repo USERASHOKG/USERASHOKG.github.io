@@ -149,6 +149,9 @@ h1 em, .contact-section em { color: var(--cyan); font-style: normal; }
 .contact-section h2 em { color: #071111; }
 .contact-section p { max-width: 470px; color: rgba(7, 17, 17, .67); font-size: 16px; line-height: 1.6; }
 .contact-actions { margin-top: 30px; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 22px; font: 11px var(--mono); }
+.contact-links a { color: rgba(7, 17, 17, .72); border-bottom: 1px solid rgba(7, 17, 17, .3); padding-bottom: 4px; }
+.contact-links a:hover { color: #071111; border-color: #071111; }
 .site-footer { min-height: 100px; display: flex; justify-content: space-between; align-items: center; gap: 20px; color: var(--muted); font: 10px var(--mono); text-transform: uppercase; letter-spacing: .06em; }
 .footer-status { color: var(--cyan); }
 .site-footer a:hover { color: var(--cyan); }
