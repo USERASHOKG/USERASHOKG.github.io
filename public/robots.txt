@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Sitemap: https://8328-i9yympaw21rfvojk1unk2-b8b91ab3.sg2.manus.computer/sitemap.xml
+Sitemap: https://ashokfolio-akbaoi53.manus.space/sitemap.xml
