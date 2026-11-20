@@ -211,3 +211,17 @@ h1 em, .contact-section em { color: var(--cyan); font-style: normal; }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; } }
+
+.project-link,
+.project-note {
+  display: inline-block;
+  margin-top: 1.1rem;
+  color: var(--accent, #8de7dc);
+  font-family: "DM Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+}
+
+.project-link { text-decoration: none; }
+.project-link:hover { text-decoration: underline; }
+.project-note { color: var(--muted, #8d9a9b); }
